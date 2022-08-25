@@ -55,6 +55,12 @@ This box plot shows that the skill players do more push up than the line players
 
 ### Numerical Descriptive Results
 
+
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+The scale shows that the mean number of pushups done by skill players is larger that the mean number of push ups done by line players, 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ```{r}
